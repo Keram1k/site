@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/handelgothic-tl');
+        @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="wrapper_header">
+            <p class="portfolio">портфолио</p>
+            <!--Стрелки заднего фона-->
+            <div>
+                <img src="img/strelka1.webp" alt="" class="strelka1">
+                <img src="img/strelka2.webp" alt="" class="strelka2">
+                <img src="img/strelka2.webp" alt="" class="strelka3">
+                <img src="img/strelka2.webp" alt="" class="strelka4">
+            </div>
+            <!--Описание-->
+            <div>
+                <h1 class="title">Василий<br>Викторович<br>Ленточкин</h1>
+                <p class="director">Директор по развитию</p>
+                <p class="about">Тут что-то написано про меня (пока у меня нет структуры в голове)<br><br>Регалии, достижения, компетенции</p>
+            </div>
+            <!--Слайдер-->
+            <div class="header__slider">
+                <div class="main__img">
+                  <img src="img/foto_1.webp" alt="" id="main__pic" />
+                </div>
+                <div class="select__img">
+                  <div class="slider__img__items">
+                    <img src="img/foto_1.webp" alt="" class="slide" />
+                    <img src="img/foto_2.webp" alt="" class="slide" />
+                    <img src="img/foto_3.webp" alt="" class="slide" />
+                    <img src="img/foto_4.webp" alt="" class="slide" />
+                  </div>
+                  <div class="select__btns">
+                    <button type="submit" class="slider__left-btn_1" id="left-arrow">
+                      <img src="img/prev.webp" alt="">
+                    </button>
+                    <button type="submit" class="slider__right-btn_1" id="right-arrow">
+                      <img src="img/next.webp" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+        </header>
+
+        <main class="wrapper_main">
+            <div class="main_box">
+                <h2 class="main_title" id="main_title_1">Мой путь</h2>
+                <ol class="main_numeric" id="main_numeric_1">
+                    <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                    <li>Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                    <li>Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+                </ol>
+                <h2 class="main_title" id="main_title_2">Успешные проекты</h2>
+                <ol class="main_numeric" id="main_numeric_2">
+                    <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                    <li>Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                    <li>Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+                </ol>
+                <h2 class="main_title" id="main_title_3">Планы и амбиции</h2>
+                <ol class="main_numeric" id="main_numeric_3">
+                    <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                    <li>Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                    <li>Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+                </ol>
+                <h2 class="main_title" id="main_title_4">Награды</h2>
+            <div class="main__slider">
+                <div class="main__slider-items">
+                  <img src="img/pismo.webp" alt="" class="main-pic-slide">
+                  <img src="img/gramota.webp" alt="" class="main-pic-slide">
+                  <img src="img/sertificat.webp" alt="" class="main-pic-slide">
+                </div>
+                <div class="main__slider-btns">
+                  <button type="submit" class="slider__left-btn" id="arrow-left">
+                    <img src="img/prev_wh.webp" alt="">
+                  </button>
+                  <button type="submit" class="slider__right-btn" id="arrow-right">
+                    <img src="img/next_wh.webp" alt="">
+                  </button>
+                </div>
+            </div>
+        </div>
+        </main>
+
+        <footer class="wrapper_footer">
+            <a href="#" class="button" id="button_1"><img src="img/icon_whatsapp.webp" class="button"></a>
+            <a href="#" class="button" id="button_2"><img src="img/icon_vk.webp" class="button"></a>
+            <a href="#" class="button" id="button_3"><img src="img/icon_telegram.webp" class="button"></a>
+            <a href="#" class="button" id="button_4"><img src="img/icon_mail.webp" class="button"></a>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
